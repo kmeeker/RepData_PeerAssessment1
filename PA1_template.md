@@ -19,8 +19,6 @@ library(ggplot2)
 ```
 
 ```r
-#library(scales)
-
 # convert date variable from factor to date format:
 df$date <- as.Date(df$date,"%Y-%m-%d")
 

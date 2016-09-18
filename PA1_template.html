@@ -131,9 +131,7 @@ $(document).ready(function () {
 <h2>What is mean total number of steps taken per day?</h2>
 <pre class="r"><code>library(ggplot2)</code></pre>
 <pre><code>## Warning: package 'ggplot2' was built under R version 3.2.4</code></pre>
-<pre class="r"><code>#library(scales)
-
-# convert date variable from factor to date format:
+<pre class="r"><code># convert date variable from factor to date format:
 df$date &lt;- as.Date(df$date,&quot;%Y-%m-%d&quot;)
 
 # graph by day:
